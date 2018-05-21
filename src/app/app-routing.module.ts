@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core'
 
 const routes: Routes = [{
   path: '',
-  redirectTo: 'rxjs',
+  redirectTo: 'pages',
   pathMatch: 'full'
 }, {
-  path: 'rxjs',
-  loadChildren: './rxjs/rxjs.module#RxjsModule'
+  path: 'pages',
+  loadChildren: './pages/pages.module#PagesModule'
 }]
 
 const config: ExtraOptions = {
